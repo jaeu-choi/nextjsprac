@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "title": "웹 프론트엔드 입문",
+    "summary": "HTML, CSS, JavaScript 기초를 다지는 입문 강의",
+    "description": "HTML의 시맨틱 구조, CSS 레이아웃, JavaScript 기본 문법을 실습 중심으로 익힙니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Frontend+Basics",
+    "level": "beginner",
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-03-05T10:00:00.000Z",
+    "duration": 120,
+    "isFree": true,
+    "tags": ["html", "css", "javascript"],
+    "instructor": {
+      "name": "김개발",
+      "bio": "10년 경력의 프론트엔드 개발자",
+      "profileImage": "https://placehold.co/100x100?text=Dev"
+    },
+    "sections": [
+      { "title": "HTML 기본", "content": "태그, 시맨틱 구조" },
+      { "title": "CSS 기본", "content": "레이아웃, 박스 모델" },
+      { "title": "JavaScript 기초", "content": "변수, 함수, DOM" }
+    ],
+    "videoUrl": "https://example.com/video/1",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "React 완전 입문",
+    "summary": "React 컴포넌트 기반 개발을 처음부터 이해",
+    "description": "JSX, hooks, 상태관리 등 React 핵심 개념을 익히는 강의입니다.",
+    "thumbnail": "https://placehold.co/600x400?text=React+Intro",
+    "level": "intermediate",
+    "createdAt": "2024-02-10T10:00:00.000Z",
+    "updatedAt": "2024-04-01T10:00:00.000Z",
+    "duration": 240,
+    "isFree": false,
+    "tags": ["react", "hooks", "frontend"],
+    "instructor": {
+      "name": "이프론트",
+      "bio": "React 생태계 전문가",
+      "profileImage": "https://placehold.co/100x100?text=FE"
+    },
+    "sections": [
+      { "title": "컴포넌트 구조", "content": "JSX, props, state" },
+      { "title": "Hooks", "content": "useState, useEffect 등" },
+      { "title": "Context API", "content": "전역 상태 관리" }
+    ],
+    "videoUrl": "https://example.com/video/2",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "title": "Node.js 백엔드 기초",
+    "summary": "Node와 Express의 기반 개념을 익히는 강의",
+    "description": "서버 기본 구조, 라우팅, 미들웨어, 간단한 REST API 개발을 다룹니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Node+Basics",
+    "level": "beginner",
+    "createdAt": "2024-03-01T10:00:00.000Z",
+    "updatedAt": "2024-03-20T10:00:00.000Z",
+    "duration": 180,
+    "isFree": true,
+    "tags": ["node", "express", "backend"],
+    "instructor": {
+      "name": "박서버",
+      "bio": "Node.js 중심 풀스택 개발자",
+      "profileImage": "https://placehold.co/100x100?text=BE"
+    },
+    "sections": [
+      { "title": "Node 이해하기", "content": "런타임, 이벤트 루프" },
+      { "title": "Express 라우팅", "content": "REST API 기초" },
+      { "title": "미들웨어", "content": "요청/응답 흐름" }
+    ],
+    "videoUrl": "https://example.com/video/3",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "title": "TypeScript 기초",
+    "summary": "JavaScript 개발자를 위한 타입 시스템 입문",
+    "description": "기본 타입, 인터페이스, 제네릭 등 실무 타입스크립트 문법을 다룹니다.",
+    "thumbnail": "https://placehold.co/600x400?text=TS+Basics",
+    "level": "intermediate",
+    "createdAt": "2024-04-12T10:00:00.000Z",
+    "updatedAt": "2024-05-12T10:00:00.000Z",
+    "duration": 200,
+    "isFree": true,
+    "tags": ["typescript", "typing"],
+    "instructor": {
+      "name": "정타입",
+      "bio": "TypeScript와 정적 분석 전문가",
+      "profileImage": "https://placehold.co/100x100?text=TS"
+    },
+    "sections": [
+      { "title": "기본 타입", "content": "number, string 등" },
+      { "title": "인터페이스", "content": "객체 타입 정의" },
+      { "title": "제네릭", "content": "타입 유연성" }
+    ],
+    "videoUrl": "https://example.com/video/4",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "title": "Next.js 16 서버 컴포넌트 핵심",
+    "summary": "App Router 기반 서버 컴포넌트 구조 학습",
+    "description": "서버 컴포넌트, 라우팅, fetch 캐싱, 메타데이터 등 Next.js 핵심 철학을 다룹니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Next+16",
+    "level": "advanced",
+    "createdAt": "2024-05-01T10:00:00.000Z",
+    "updatedAt": "2024-07-10T10:00:00.000Z",
+    "duration": 300,
+    "isFree": false,
+    "tags": ["nextjs", "server-components"],
+    "instructor": {
+      "name": "최넥스트",
+      "bio": "Next.js 생태계 전문 개발자",
+      "profileImage": "https://placehold.co/100x100?text=Next"
+    },
+    "sections": [
+      { "title": "App Router", "content": "폴더 기반 라우팅" },
+      { "title": "Server Components", "content": "서버에서 렌더링" },
+      { "title": "캐싱 전략", "content": "full route / fetch cache" }
+    ],
+    "videoUrl": "https://example.com/video/5",
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "title": "CSS Flex & Grid 완전 정복",
+    "summary": "레이아웃을 시스템적으로 이해하는 CSS 핵심 강의",
+    "description": "실무에서 반드시 필요한 Flexbox, Grid 시스템을 완전 정복합니다.",
+    "thumbnail": "https://placehold.co/600x400?text=CSS+Layout",
+    "level": "beginner",
+    "createdAt": "2024-02-20T10:00:00.000Z",
+    "updatedAt": "2024-03-15T10:00:00.000Z",
+    "duration": 150,
+    "isFree": true,
+    "tags": ["css", "grid", "flexbox"],
+    "instructor": {
+      "name": "강레이아웃",
+      "bio": "UI 구조 설계 전문가",
+      "profileImage": "https://placehold.co/100x100?text=CSS"
+    },
+    "sections": [
+      { "title": "Flexbox", "content": "정렬, 축, 배치" },
+      { "title": "Grid", "content": "2차원 레이아웃" }
+    ],
+    "videoUrl": "https://example.com/video/6",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "title": "웹 접근성 기본기",
+    "summary": "실무 웹 접근성 기준 WCAG 이해",
+    "description": "스크린리더, 시멘틱 구조, 키보드 네비게이션 등 접근성 핵심 내용을 다룹니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Accessibility",
+    "level": "intermediate",
+    "createdAt": "2024-04-01T10:00:00.000Z",
+    "updatedAt": "2024-04-21T10:00:00.000Z",
+    "duration": 160,
+    "isFree": true,
+    "tags": ["a11y", "wcag", "semantic"],
+    "instructor": {
+      "name": "조접근",
+      "bio": "WCAG 인증 및 접근성 전문 엔지니어",
+      "profileImage": "https://placehold.co/100x100?text=A11Y"
+    },
+    "sections": [
+      { "title": "시멘틱 HTML", "content": "구조적 마크업" },
+      { "title": "스크린리더", "content": "실제 사용 예시" }
+    ],
+    "videoUrl": "https://example.com/video/7",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "title": "Git & GitHub 실전",
+    "summary": "커밋 전략, 브랜치 전략, PR 흐름 익히기",
+    "description": "협업에서 바로 쓰는 Git 실전 패턴을 간단한 실습과 함께 제공합니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Git",
+    "level": "beginner",
+    "createdAt": "2024-03-02T10:00:00.000Z",
+    "updatedAt": "2024-05-02T10:00:00.000Z",
+    "duration": 180,
+    "isFree": true,
+    "tags": ["git", "version-control", "github"],
+    "instructor": {
+      "name": "문버전",
+      "bio": "버전 관리 전문 강사",
+      "profileImage": "https://placehold.co/100x100?text=Git"
+    },
+    "sections": [
+      { "title": "Git 기본", "content": "commit, branch, merge" },
+      { "title": "GitHub", "content": "PR 리뷰" }
+    ],
+    "videoUrl": "https://example.com/video/8",
+    "rating": 4.2
+  },
+  {
+    "id": 9,
+    "title": "API 설계 기초",
+    "summary": "RESTful API 패턴의 기초 이해",
+    "description": "엔드포인트 설계, 리소스 모델링, 응답 구조 설계 등 기본적인 API 설계 개념을 익힙니다.",
+    "thumbnail": "https://placehold.co/600x400?text=API+Design",
+    "level": "intermediate",
+    "createdAt": "2024-06-01T10:00:00.000Z",
+    "updatedAt": "2024-06-20T10:00:00.000Z",
+    "duration": 220,
+    "isFree": false,
+    "tags": ["api", "design", "architecture"],
+    "instructor": {
+      "name": "서엔드",
+      "bio": "RESTful API 전문 아키텍트",
+      "profileImage": "https://placehold.co/100x100?text=API"
+    },
+    "sections": [
+      { "title": "REST 설계", "content": "리소스 중심 설계" },
+      { "title": "응답 구조", "content": "에러 핸들링" }
+    ],
+    "videoUrl": "https://example.com/video/9",
+    "rating": 4.1
+  },
+  {
+    "id": 10,
+    "title": "데이터 시각화 기본",
+    "summary": "Chart.js · D3 · ECharts 입문",
+    "description": "대시보드 생성에 필요한 기본 그래프, 데이터 매핑 개념을 실습합니다.",
+    "thumbnail": "https://placehold.co/600x400?text=Data+Viz",
+    "level": "advanced",
+    "createdAt": "2024-07-05T10:00:00.000Z",
+    "updatedAt": "2024-08-01T10:00:00.000Z",
+    "duration": 260,
+    "isFree": true,
+    "tags": ["data", "visualization", "charts"],
+    "instructor": {
+      "name": "송비주얼",
+      "bio": "데이터 분석 및 시각화 엔지니어",
+      "profileImage": "https://placehold.co/100x100?text=Chart"
+    },
+    "sections": [
+      { "title": "차트 기본기", "content": "라인, 바 차트" },
+      { "title": "데이터 매핑", "content": "실제 데이터 연결" }
+    ],
+    "videoUrl": "https://example.com/video/10",
+    "rating": 4.8
+  }
+]
+
