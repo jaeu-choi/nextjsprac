@@ -1,1 +1,0 @@
-export { PublicHero } from "./PublicHero";
